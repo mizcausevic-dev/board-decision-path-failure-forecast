@@ -1,0 +1,238 @@
+[
+  {
+    "id": "ai-governance-path-failure",
+    "lane": "AI governance and agent readiness",
+    "track": "AI_GOVERNANCE",
+    "action": "STABILIZE_PATH",
+    "failureTheme": "AI approval lanes move quickly, but the path still relies on too few durable checkpoints to survive another board cycle cleanly.",
+    "boardQuestion": "Which AI lane is most likely to fail first if the board adds another approval cycle?",
+    "owner": "Chief AI Officer",
+    "audience": "Board risk committee",
+    "currentPosture": "AI controls are visible, but the path is thinner than the current board packet implies.",
+    "forecastHeadline": "AI decision paths are on track to fail under the next exception burst.",
+    "failureSignal": "The final approval path still depends on a narrow set of human checkpoints and low recovery strength.",
+    "nextFailurePoint": "Policy and security review collision during the next exception burst",
+    "preventiveMoves": [
+      "checkpoint redundancy log",
+      "fallback review path",
+      "AI approval surge drill"
+    ],
+    "relatedSurfaces": [
+      "scorecard.kineticgain.com",
+      "memo.kineticgain.com",
+      "agents.kineticgain.com"
+    ],
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ],
+    "decisionHandoffs": 4,
+    "decisionCyclesToFailure": 2,
+    "escalationGaps": 2,
+    "breakRecoveryScore": 58,
+    "surgeToleranceScore": 61,
+    "boardConfidenceScore": 64,
+    "valueAtStakeMillions": 28,
+    "headline": "AI needs a more stable decision path before the next board packet expands scope.",
+    "narrative": "The board should stabilize AI decision routing before approving another high-velocity cycle.",
+    "nextMove": "Add one fallback approval path and test recovery under AI exception load."
+  },
+  {
+    "id": "identity-path-failure",
+    "lane": "Identity and access governance",
+    "track": "IDENTITY",
+    "action": "REDUCE_FRICTION",
+    "failureTheme": "Identity closes real work, but the decision path loses resilience once audit and security reviews pile onto the same route.",
+    "boardQuestion": "Which identity lane is most likely to break if another exception cycle starts?",
+    "owner": "Chief Information Security Officer",
+    "audience": "Audit committee",
+    "currentPosture": "Identity ownership exists, but the path still loses stability when review friction stacks up.",
+    "forecastHeadline": "Identity decision routing is trending toward failure faster than the board packet shows.",
+    "failureSignal": "The path stays open, but recovery and surge tolerance remain too thin after audit-driven escalations.",
+    "nextFailurePoint": "Back-to-back audit escalations in the next exception window",
+    "preventiveMoves": [
+      "escalation buffering plan",
+      "review friction map",
+      "identity fallback owner path"
+    ],
+    "relatedSurfaces": [
+      "certs.kineticgain.com",
+      "guest.kineticgain.com",
+      "protect.kineticgain.com"
+    ],
+    "companyTags": [
+      "Microsoft",
+      "Entra",
+      "Okta"
+    ],
+    "decisionHandoffs": 4,
+    "decisionCyclesToFailure": 2,
+    "escalationGaps": 2,
+    "breakRecoveryScore": 55,
+    "surgeToleranceScore": 57,
+    "boardConfidenceScore": 58,
+    "valueAtStakeMillions": 17,
+    "headline": "Identity needs less path friction before the next audit packet lands.",
+    "narrative": "The board should reduce identity path friction before another exception cycle stretches the route too far.",
+    "nextMove": "Collapse one duplicate review step and pre-assign escalation buffering ownership."
+  },
+  {
+    "id": "revenue-path-failure",
+    "lane": "Revenue systems and reporting",
+    "track": "REVENUE_SYSTEMS",
+    "action": "ADD_REDUNDANCY",
+    "failureTheme": "Revenue packets reopen because the path lacks enough redundancy to recover cleanly when finance and commercial signoffs drift.",
+    "boardQuestion": "Which reporting lane will break first if the next forecast packet loops back to the board?",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board finance committee",
+    "currentPosture": "The revenue lane is measurable, but route stability remains incomplete across finance and commercial signoff.",
+    "forecastHeadline": "Revenue decision paths are one reopen away from visible failure.",
+    "failureSignal": "The board packet shows who reviewed the decision, but not how the path recovers when one signoff stalls.",
+    "nextFailurePoint": "Commercial signoff stall during the next forecast reopen",
+    "preventiveMoves": [
+      "backup signoff path",
+      "forecast recovery drill",
+      "handoff redundancy map"
+    ],
+    "relatedSurfaces": [
+      "powerbi.kineticgain.com",
+      "yield.kineticgain.com",
+      "martech.kineticgain.com"
+    ],
+    "companyTags": [
+      "Power BI",
+      "Tableau",
+      "VWO"
+    ],
+    "decisionHandoffs": 5,
+    "decisionCyclesToFailure": 1,
+    "escalationGaps": 2,
+    "breakRecoveryScore": 52,
+    "surgeToleranceScore": 55,
+    "boardConfidenceScore": 53,
+    "valueAtStakeMillions": 25,
+    "headline": "Revenue packets need path redundancy before another cycle starts.",
+    "narrative": "The board should demand more path redundancy before another reopened forecast packet hits finance.",
+    "nextMove": "Add a backup signoff route and test forecast-path recovery end to end."
+  },
+  {
+    "id": "fintech-path-failure",
+    "lane": "FinTech diligence and transaction controls",
+    "track": "FINTECH",
+    "action": "BUFFER_LOAD",
+    "failureTheme": "FinTech scope looks credible, but the path cannot absorb much more review load before the next cycle fractures.",
+    "boardQuestion": "Which capital-sensitive lane is most likely to fail if it adds more scope?",
+    "owner": "Chief Financial Officer",
+    "audience": "Investment committee",
+    "currentPosture": "FinTech surfaces are credible, but route stability is too weak for expansion without buffering.",
+    "forecastHeadline": "FinTech decision paths are approaching a preventable breakage point.",
+    "failureSignal": "Merchant, treasury, and KYC reviews still run through one overloaded route without enough tolerance.",
+    "nextFailurePoint": "Simultaneous merchant-risk and KYC review burst",
+    "preventiveMoves": [
+      "load-buffer plan",
+      "parallel review path",
+      "committee congestion drill"
+    ],
+    "relatedSurfaces": [
+      "payments.kineticgain.com",
+      "merchant.kineticgain.com",
+      "treasury.kineticgain.com",
+      "kyc.kineticgain.com"
+    ],
+    "companyTags": [
+      "Stripe",
+      "Adyen",
+      "Plaid"
+    ],
+    "decisionHandoffs": 6,
+    "decisionCyclesToFailure": 1,
+    "escalationGaps": 3,
+    "breakRecoveryScore": 47,
+    "surgeToleranceScore": 48,
+    "boardConfidenceScore": 49,
+    "valueAtStakeMillions": 33,
+    "headline": "FinTech stability is too weak for another scope expansion.",
+    "narrative": "The board should buffer FinTech decision load before approving more work.",
+    "nextMove": "Add load buffers and parallel review capacity before the next diligence surge."
+  },
+  {
+    "id": "procurement-path-failure",
+    "lane": "Procurement, trust, and buyer proof",
+    "track": "PROCUREMENT",
+    "action": "STABILIZE_PATH",
+    "failureTheme": "Procurement remains the cleanest decision path and can serve as the stability reference model for the rest of the estate.",
+    "boardQuestion": "Which lane is least likely to fail and should be copied elsewhere?",
+    "owner": "Chief Commercial Officer",
+    "audience": "Board growth committee",
+    "currentPosture": "Procurement closes cleanly because the path survives spikes and recovery is built into the route.",
+    "forecastHeadline": "Procurement remains the lowest-failure reference path in the current estate.",
+    "failureSignal": "Trust and commercial packets close with enough tolerance and recovery strength to absorb more demand.",
+    "nextFailurePoint": "None immediately visible under current modeled load",
+    "preventiveMoves": [
+      "reference path packet",
+      "path playbook",
+      "copy-forward score history"
+    ],
+    "relatedSurfaces": [
+      "procurement.kineticgain.com",
+      "questionnaire.kineticgain.com",
+      "trust.kineticgain.com"
+    ],
+    "companyTags": [
+      "Vanta",
+      "Drata",
+      "Google"
+    ],
+    "decisionHandoffs": 2,
+    "decisionCyclesToFailure": 1,
+    "escalationGaps": 0,
+    "breakRecoveryScore": 88,
+    "surgeToleranceScore": 85,
+    "boardConfidenceScore": 84,
+    "valueAtStakeMillions": 12,
+    "headline": "Procurement shows the stability pattern the rest of the estate should copy.",
+    "narrative": "Use procurement as the reference lane for failure containment and recovery design.",
+    "nextMove": "Reuse the procurement reference packet in one constrained adjacent lane."
+  },
+  {
+    "id": "biotech-path-failure",
+    "lane": "Biotech and diagnostics control lanes",
+    "track": "BIOTECH",
+    "action": "ADD_REDUNDANCY",
+    "failureTheme": "Regulated control lanes still depend on too few durable review paths instead of a stable control packet.",
+    "boardQuestion": "Which regulated lane will fail first if the board scales another control family?",
+    "owner": "Quality systems lead",
+    "audience": "Board compliance committee",
+    "currentPosture": "Biotech controls are convincing, but route stability is still too distributed across quality, compliance, and operations.",
+    "forecastHeadline": "Biotech decision routes are trending toward failure across regulated reviews.",
+    "failureSignal": "CAPA, specimen, and safety packets still rely on narrow review routes with weak recovery strength.",
+    "nextFailurePoint": "Quality and compliance collision during the next regulated exception burst",
+    "preventiveMoves": [
+      "regulated backup route",
+      "failure drill log",
+      "control packet fallback path"
+    ],
+    "relatedSurfaces": [
+      "assay.kineticgain.com",
+      "capa.kineticgain.com",
+      "specimen.kineticgain.com",
+      "safety.kineticgain.com"
+    ],
+    "companyTags": [
+      "LabVantage",
+      "Veeva",
+      "Thermo Fisher"
+    ],
+    "decisionHandoffs": 5,
+    "decisionCyclesToFailure": 2,
+    "escalationGaps": 2,
+    "breakRecoveryScore": 50,
+    "surgeToleranceScore": 54,
+    "boardConfidenceScore": 55,
+    "valueAtStakeMillions": 26,
+    "headline": "Biotech needs more path redundancy before more control-family expansion.",
+    "narrative": "The board should require stable regulated decision routes before scaling more control surfaces.",
+    "nextMove": "Add one redundant regulated review path and test it under exception load."
+  }
+]
